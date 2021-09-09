@@ -6,6 +6,7 @@ __Note2: Run the `main.py` file only if you want to implement all three of the f
 
 # An Overview of the System:
 Typical human beings are gifted by the nature with number of senses that make them able to develop a fine perception of the surrounding world. Unfortunately, a number of people for different reasons have lost or deprived their visual sense. In any country the number of visually impaired people and those with very low vision are significant. This is an important issue amongst social as well as scientific society to find an adequate solution for this problem. Among the handicapped people, those visually impaired ones are facing more difficulties than others in gathering information, for about 70% information got by human being is through sight.
+
 This system is specifically developed keeping the visually impaired people in mind, and we strongly believe that the AVSB can offer people with disabilities the assistance and support they need to achieve a good quality of life and allow them to participate in the social and economic life. Assistive advanced technologies are powerful tools to increase independence and improve participation. Therefore, the purpose of this project is to analyze how people with visual impairments can interact with and benefit from these technologies.
 
 # Features of AVSB
@@ -24,26 +25,26 @@ __The features of AVSB include:__
 # Directory Structure for your Raspberry pi:
 ```
 |-- home
-	|-- pi
-		|-- Desktop
-			|--Artificial_Vision_System_for_Blinds
-				|-- currency_recogntion
-					|-- files 													# contains training images for Pakistani denominations
-					|-- currecny_recognition.py 					# code to run for detecting the value of different denominations
+    |-- pi
+        |-- Desktop
+            |--Artificial_Vision_System_for_Blinds
+                |-- currency_recogntion
+                    |-- files                                          # contains training images for Pakistani denominations
+                    |-- currecny_recognition.py          # code to run for detecting the value of different denominations
 					|-- ReadDMe.md
-				|
-				|-- object_detection
-					|-- coco_ssd_mobilenet_v1_1.0_quant_2018_06_29					# contains pre-trained ssd mobilenet v1 model
-						|-- detect.tflite
-						|-- labelmap.txt
-					|-- object_recogniton.py															# code to run for detecting objects in fron of the user
-					|-- ReadMe.md
-				|
-				|-- text_to_speech
-					|-- extract_text.py
-					|-- ReadMe.md
-				|
-				|-- main.py												# main file, containing paths to all other .py files, that can be run individually, by their assigned push buttons.
-				|-- README.md
+                |
+                |-- object_detection
+                    |-- coco_ssd_mobilenet_v1_1.0_quant_2018_06_29        # contains pre-trained ssd mobilenet v1 model
+                        |-- detect.tfllite
+                        |-- labelmap.txt
+                    |-- object_recogniton.py                                                # code to run for detecting objects in fron of the user
+                    |-- ReadMe.md
+                |
+                |-- text_to_speech
+                    |-- extract_text.py
+                    |-- ReadMe.md
+                |
+                |-- main.py                         # main file, containing paths to all other .py files, that can be run individually, by their assigned push buttons.
+                |-- README.md
 ```
 
