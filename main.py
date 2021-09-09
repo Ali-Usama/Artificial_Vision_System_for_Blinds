@@ -22,19 +22,19 @@ engine.runAndWait()
 def object_detection(channel):
     engine.say('Starting the object recognition. Please Wait!')
     engine.runAndWait()
-    call(['python3', '/home/pi/Desktop/FYP/Tflite_object_detection.py'])
+    call(['python3', '/home/pi/Desktop/Artificial_Vision_System_for_Blinds/object_recognition.py'])
 
 def currency_recognition(channel):
     engine.say('Starting the currency recognition')
     engine.say('Please press 2 to capture the image')
     engine.runAndWait()
-    call(['python3', '/home/pi/Desktop/FYP/currency_recognition.py'])
+    call(['python3', '/home/pi/Desktop/Artificial_Vision_System_for_Blinds/currency_recogniton/currency_recognition.py'])
    
 def text_to_speech(channel):
 	engine.say('This utility will convert text into speech')
 	engine.say('Please press C to exit the system')
 	engine.runAndWait()
-	call(['python3', '/home/pi/Desktop/FYP/extract_text.py'])
+	call(['python3', '/home/pi/Desktop/text_to_speech/text_to_speech/extract_text.py'])
 	 
 def exit_system(channel):
     engine.say('Closing the program. Good bye!')

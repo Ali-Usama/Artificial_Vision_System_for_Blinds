@@ -63,7 +63,7 @@ test_img = cv2.imread('saved_img.jpg')
 training_set=[]
 ext = ['jpg', 'jpeg']
 for e in ext:
-    for files in glob.glob('/home/pi/Desktop/FYP/files/' + '*' + e):
+    for files in glob.glob('/home/pi/Desktop/Artificial_Vision_System_for_Blinds/currency_recognition/files/' + '*' + e):
         training_set.append(files)
         
 engine.say('Processing Image. Please Wait!')
@@ -92,7 +92,7 @@ if max_val != 8:
     print(training_set[max_pt])
     print('good matches ', max_val)
     
-note = str(training_set[max_pt])[27:-6][6:]
+note = str(training_set[max_pt])[86:-6][6:]
 
 print('\nDetected denomination: Rs. ', note)
 

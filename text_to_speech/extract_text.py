@@ -46,7 +46,7 @@ while True:
 		break
 
 
-image = cv2.imread('text_img.jpg')
+image = cv2.imread('/home/pi/Desktop/Artificial_Vision_System_for_Blinds/text_to_speech/text_img.jpg')
 
 # Converting image into a gray-scale image
 gray_image = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
