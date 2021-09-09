@@ -1,2 +1,3 @@
-# Artificial_Vision_System_for_Blinds
-An artificial vision system that performs object detection, currency recognition, and conversion of Text into Speech
+# Artificial Vision System For Blinds
+
+__Note: This project is under-development. Further modifications will be added soon. If there are any issues, please feel free to raise them.__
