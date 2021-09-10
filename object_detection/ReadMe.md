@@ -7,16 +7,6 @@ __A detailed overview of the system:__
 2. After testing with the help of voice modules the class of the object will be converted into a default voice notes which will then be sent to the blind victims for their assistance.
 3. Along with the object detection , we have used an alert system where approximate distance will get calculated. If the Blind Person is very close to the frame or is far away at a safer place , it will generate voice-based outputs along with distance units.	
 
-# Hardware Modules Used in the System:
-```
-1. Raspberry pi 4 Model B (4GB)
-2. PiCam v2 8MP
-3. PowerBank 10kmAh (5V/3A output)
-4. Push Buttons
-5. BreadBoard
-6. Jumper wires
-7. Earphones
-```
 
 # Set up and Run Tensorflow Lite Object Detection model on Raspberry Pi:
 It's much easier to set up the TensorFlow lite on raspberyy pi, as compared to setting up the Tensorflow on a PC/laptop. The following steps should be followed for the setup of this system:
