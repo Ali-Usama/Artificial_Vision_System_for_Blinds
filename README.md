@@ -47,6 +47,32 @@ __The features of AVSB include:__
         |-- main.py   # main file, containing paths to all other .py files, that can be run individually, by their assigned push buttons.
         |-- README.md
 ```
+# Run AVSB without a GUI:
+The sole purpose of creating the `main.py` file was to enable the raspberry pi to run all of the programs without a Graphical User Interface. In other words, we wanted to develop a portable system, that can be powered by a power bank and the user can take it anywhere they want. 
+
+For this purpose, the following steps can be followed to run the `main.py` script at the startup, which would call the object detection, or currency recogniton, or text-to-speech systems, with the help of push buttons: 
+1. Enable Console AutoLogin
+```
+$ sudo raspi-config
+Choose: Boot Options
+Choose: Desktop/CLI
+Choose: Console Autologin
+Select Finish, but don't reboot yet
+```
+2. Put the path of `main.py` in /etc/profile
+```
+$ sudo nano /etc/profile
+```
+Don't change anything else in that file, scroll to the bottom and add the follwing line at the end:
+```
+sudo python3 /home/pi/Desktop/Artificial_Vision_System_for_Blinds/main.py
+```
+Type `Ctrl+S` to save the changes, and then `Ctrl+X` to exit.
+
+3. Now, reboot and check if this has worked:
+```
+$ sudo reboot
+```
 
 # Push Buttons Arrangement:
 
