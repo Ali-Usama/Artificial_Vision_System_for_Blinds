@@ -27,19 +27,17 @@ source avsb_od/bin/activate
 4. Install the required libraries:
 
 * use [this](https://www.tensorflow.org/lite/guide/python) guide to install tensorflow lite
-* install following openCV dependencies:
+* install OpenCV:
+First, install some dependencies:
 ```
-$ sudo apt install libjpeg-dev libtiff5-dev libjasper-dev libpng-dev
-$ sudo apt install libavodec-dev libavformat-dev libswscale-dev lib41-dev
-$ sudo apt install libxvidcore-dev libx264-dev
-$ sudo apt install libatlas-base-dev gfortran
-$ sudo apt install libhdf5-dev libhdf5-serial-dev libhdf5-103
-$ sudo apt install libqtgui4 libqtwebkit4 libtqt4-test python3-pyqt5
-$ sudo apt install python3-dev
+$ sudo apt install libjpeg-dev libtiff-dev libjasper-dev libpng-dev libwebp-dev libopenexr-dev
+$ sudo apt install libavcodec-dev libavformat-dev libswscale-dev libv4l-dev libxvidcore-dev libx264-dev libdc1394-22-dev libgstreamer-plugins-base1.0-dev libgstreamer1.0-dev
+$ sudo apt install libatlas-base-dev liblapacke-dev gfortran
+$ sudo apt install libhdf5-dev libhdf5-103
 ```
-* Now, install openCV
+Now, go ahead and install OpenCV:
 ```
-pip3 install opencv-contrib-python
+$ python3 -m pip install opencv-python
 ```
 * Install RPi GPIO in order to perform function with the help of push buttons:
 ```
