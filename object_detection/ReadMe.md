@@ -59,9 +59,10 @@ OR, you can also install it directly from the Raspbian repository:
 ```
 sudo apt install rpi.gpio
 ```
-*  Install pyttsx3 for voice outputs:
+*  Install pyttsx3 for voice outputs (you'd also need `espeak`):
 ```
 pip3 install pyttsx3
+$ sudo apt install espeak
 ```
 * And, lastly, install numpy:
 ```
