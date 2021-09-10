@@ -22,6 +22,17 @@ __The features of AVSB include:__
 2. Currency Recognititon for Pakistani denominations: Click [here](https://github.com/Ali-Usama/Artificial_Vision_System_for_Blinds/tree/main/Currency%20Recognition) for further details.
 3. Conversion of Text (from images) into speech: Click [here](https://github.com/Ali-Usama/Artificial_Vision_System_for_Blinds/tree/main/Text%20To%20Speech) for details.
 
+# Hardware Modules Used in the System:
+```
+1. Raspberry pi 4 Model B (4GB)
+2. PiCam v2 8MP
+3. PowerBank 10kmAh (5V/3A output)
+4. Push Buttons
+5. BreadBoard
+6. Jumper wires
+7. Earphones
+```
+
 # Directory Structure for your Raspberry pi:
 ```
 |-- home
