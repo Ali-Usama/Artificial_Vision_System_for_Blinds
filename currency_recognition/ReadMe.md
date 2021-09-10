@@ -49,7 +49,7 @@ $ python3 -m pip install opencv-python
 ```
 $ python3 -m pip install utils
 ```
-* * Install RPi GPIO in order to perform function with the help of push buttons:
+*  Install RPi GPIO in order to perform function with the help of push buttons:
 ```
 pip3 install RPi.GPIO
 ```
