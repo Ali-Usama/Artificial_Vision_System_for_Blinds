@@ -10,8 +10,9 @@ For our project, we made use of the Python wrapper named `pytesseract`. It is us
 
 By default, Tesseract considers the input image as a page of text in segments. We can configure the Tesseract’s different segmentations if we are interested in capturing a small region of text from the image. We can dot it bay assigning `–psm` mode to it. Tesseract fully automates the page segmentation but it does not perform orientation and script detection. The different configuration parameters for Tesseract are:
 * `Page segmentation mode (--psm):` By configuring this, we can assist Tesseract in how it should split an image in the form of texts.
-```
+
 Here is the complete list of supported arguments by –psm: 
+
 | Argument | Description |
 | :------: | :--------  |
 |  0 |  Orientation and script detection (OSD) only. |
@@ -28,16 +29,16 @@ Here is the complete list of supported arguments by –psm:
 | 11 |   Sparse text. Find as much text as possible in no particular order. |
 | 12 |   Sparse text with OSD. |
 | 13 |  Raw line. Treat the image as a single text line, bypassing hacks that are Tesseract-specific. |
-```
+
 * `Engine mode (--oem):` Tesseract has several engine modes with different performance and speed, it includes:
-```
+
 | Argument | Description |
 | :------:  | :---------  |
 | 0 | Legacy engine only |
 | 1 | Neural net LSTM only |
 | 2 | Legacy + LSTM mode only |
 | 3 | By defualt, based on what is currently available|
-```
+
 We have used `--oem 3 --psm 6` in our system.
 
 # Install required Libraries:
